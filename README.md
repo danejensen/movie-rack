@@ -40,4 +40,4 @@ NOTE: If you're not familiar or comfortable with Git or GitHub, let us know. It'
 
 ## Ask for Help if You Need It
 
-If any of the technologies, requirements, expectations, or solution ideas aren't clear to you, don't get stressed about it. Ask us for help and we'll work together to see it through!
+If any of the tools, requirements, expectations, or solution ideas aren't clear to you, don't get stressed about it. Ask us for help and we'll work together to see it through!
