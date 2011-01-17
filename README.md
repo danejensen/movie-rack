@@ -4,7 +4,7 @@
 
 The Movie Rack application will help movie theaters publish movies and showtimes, and sell tickets to movies.
 
-Coding for the application started yet. The first step of the project is a very rough proof of concept. Some basic requirements have been sketched.
+Coding for the application hasn't started yet. The first step of the project is a very rough proof of concept. Some basic requirements have been sketched.
 
 ## Requirements
 
