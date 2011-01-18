@@ -10,7 +10,7 @@ Coding for the application hasn't started yet. The first step of the project is 
 
 ### Tools and Technology
 - The application should be written using Rails 3
-- It should be specified and tested using RSpec 2
+- It should be specified and tested using RSpec 2 (`rails generate rspec:install` has already been executed for the project)
 - The database should be SQLite3
 - The database schema should be managed with Rails migrations
 - Views can be written in either ERB or HAML
