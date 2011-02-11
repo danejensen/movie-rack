@@ -51,3 +51,7 @@ If you don't have enough time available to you to complete all the features, imp
 If you're not familiar or comfortable with Git or GitHub, let us know. It's not a problem. We can work around this, or help you through the process.
 
 If any of the tools, requirements, expectations, or solution ideas aren't clear to you, don't get stressed about it. Ask us for help and we'll work together to see it through.
+
+## Thanks!
+
+We appreciate that your time is your own. Thanks very much for taking your time to do this exercise and for helping us speed the process.
