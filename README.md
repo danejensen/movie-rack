@@ -15,6 +15,11 @@ Coding for the application hasn't started yet. The first step of the project is 
 - The database schema should be managed with Rails migrations
 - Views can be written in either ERB or HAML
 
+### Sample Data
+- The code should be submitted with sample data so that the app can be used immediately
+- Use the seed data mechanism that is part of Rails to create the sample data
+- The sample data set doesn't have to be extensive. You can keep it minimal enough to not be a hassle, but enough to get a feel for the working of the app through the UI.
+
 ### User Experiences
 - List movies and showtimes for theaters
 - Allow the list to be filtered by a given time of day
@@ -35,7 +40,7 @@ Take the time you need to do this exercise. It's not a race, but we're looking f
 To submit the code:
 - Fork the repository on GitHub
 - Commit your code to your fork
-- When you're done, submit a pull request on GitHub
+- When you're done, submit a pull request on GitHub, or send me an email message with the repository address.
 
 ## Definition of "Done"
 
