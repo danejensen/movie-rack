@@ -1,0 +1,21 @@
+<h1>Cinema Place</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Showtimes</th>
+  </tr>
+ 
+<% @movies.each do |movie| %>
+  <tr>
+    <td><%= movie.title %></td>
+    <td>
+      <ul id="navlist">
+      <% @stimes[movie.id].each do |s| %>
+          <li><%= link_to s.starttime.strftime("%I:%M%p"), '/showtime/show/'+s.id.to_s %></li>
+      <% end %>
+      </ul>
+    </td>
+  </tr>
+<% end %>
+</table>
