@@ -5,17 +5,13 @@
     <th>Movie</th>
     <th>Showtime</th>
     <th></th>
-    <th>Tickets Left</th>
-    <th></th>
   </tr>
 
   <tr>
     <td><%= @movie.title %></td>
     <td><%= @s.starttime.strftime("%I:%M%p") %></td>
-    <td></td>
-    <td><%= @s.seatsold %></td>
     <td>
-      <%= form_tag @s.id.to_s, :method => 'put' do %>
+      <%= form_tag 'showtime/'+@s.id.to_s, :method => 'put' do %>
          <p>Tickets:<br />
          <%= text_field_tag "tickets" %></p>
          <%= submit_tag 'Purchase' %>
