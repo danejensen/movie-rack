@@ -9,7 +9,9 @@ class ShowtimeController < ApplicationController
   def update
     @s = Showtime.find_by_id(params[:id])
     @s.seatsold = @s.seatsold - params[:tickets].to_i
-    @s.save
+    unless @s.save
+      flash[:notice] = "Sorry you aren't allowed to purchase more tickets than there are available."
+    end
     redirect_to :controller => 'showtime', :action => 'show'
   end 
 

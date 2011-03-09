@@ -25,11 +25,17 @@ MovieRack::Application.routes.draw do
   #     end
   #   end
 
+
+
+
+  root :to => "movies#index"
+
   # Sample resource route with sub-resources:
   resources :movies
   resources :showtime
   #   resources :showtimes
   #end
+
 
   #resources :showtimes
 
