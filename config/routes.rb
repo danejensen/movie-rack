@@ -26,10 +26,12 @@ MovieRack::Application.routes.draw do
   #   end
 
   # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+  resources :movies
+  resources :showtime
+  #   resources :showtimes
+  #end
+
+  #resources :showtimes
 
   # Sample resource route with more complex sub-resources
   #   resources :products do
@@ -54,5 +56,5 @@ MovieRack::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  match ':controller(/:action(/:id(.:format)))'
+  # match ':controller(/:action(/:id(.:format)))'
 end

@@ -1,4 +1,12 @@
 <h1>Cinema Place</h1>
+
+<select onchange="window.location.href = this.value">
+  <option value="/movies">Pick a time</option>
+  <option value="/movies">All Showtimes</option>
+  <% (0..30).each do |i|%>
+    <option value="/movies?time=<%=i*2400+44400 %>"><%= Time.at(43200+2400*i).utc.strftime("%I:%M%p")+" - "+ Time.at(45600+i*2400).utc.strftime("%I:%M%p") %></option>
+  <% end %>
+</select>
  
 <table>
   <tr>
@@ -12,7 +20,7 @@
     <td>
       <ul id="navlist">
       <% @stimes[movie.id].each do |s| %>
-          <li><%= link_to s.starttime.strftime("%I:%M%p"), '/showtime/show/'+s.id.to_s %></li>
+          <li id="<%=s.id.to_s%>"><%= link_to s.starttime.strftime("%I:%M%p"), '/showtime/'+s.id.to_s %></li>
       <% end %>
       </ul>
     </td>
